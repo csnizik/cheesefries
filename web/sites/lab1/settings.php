@@ -2,8 +2,6 @@
 
 // phpcs:ignoreFile
 
-// DDEV-created Drupal 10 settings.php from upstream default.settings.php
-
 /**
  * @file
  * Drupal site-specific configuration file.
@@ -732,6 +730,8 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  * Provide a fully qualified class name here if you would like to provide an
  * alternate implementation YAML parser. The class must implement the
  * \Drupal\Component\Serialization\SerializationInterface interface.
+ *
+ * This setting is deprecated in Drupal 10.3 and removed in Drupal 11.
  */
 # $settings['yaml_parser_class'] = NULL;
 
@@ -875,11 +875,6 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # $settings['migrate_file_public_path'] = '';
 # $settings['migrate_file_private_path'] = '';
 
-// Automatically generated include for settings managed by ddev.
-if (getenv('IS_DDEV_PROJECT') == 'true' && file_exists(__DIR__ . '/settings.ddev.php')) {
-  include __DIR__ . '/settings.ddev.php';
-}
-
 /**
  * Load local development override configuration, if available.
  *
@@ -894,6 +889,6 @@ if (getenv('IS_DDEV_PROJECT') == 'true' && file_exists(__DIR__ . '/settings.ddev
  * Keep this code block at the end of this file to take full effect.
  */
 #
-if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
- include $app_root . '/' . $site_path . '/settings.local.php';
-}
+# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+#   include $app_root . '/' . $site_path . '/settings.local.php';
+# }

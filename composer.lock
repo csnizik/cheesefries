@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1879e943477e1186c21ccd1d05952571",
+    "content-hash": "46554bafb19f7bcc8dcacb476648c4af",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1691,6 +1691,50 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/uswds",
                 "issues": "https://www.drupal.org/project/issues/uswds?categories=All"
+            }
+        },
+        {
+            "name": "drupal/uswds_base",
+            "version": "3.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/uswds_base.git",
+                "reference": "3.9.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/uswds_base-3.9.0.zip",
+                "reference": "3.9.0",
+                "shasum": "9f848b93aa2be37f925c79789608048bf1ab63a3"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10 || ^11"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "3.9.0",
+                    "datestamp": "1729117059",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "mferanda",
+                    "homepage": "https://www.drupal.org/user/3541484"
+                }
+            ],
+            "description": "Drupal USWDS Base Theme - The U.S. Web Design System provides design guidelines and code to help you quickly create trustworthy, accessible, and consistent digital government services.",
+            "homepage": "https://www.drupal.org/project/uswds_base",
+            "support": {
+                "source": "https://git.drupalcode.org/project/uswds_base"
             }
         },
         {
@@ -6800,10 +6844,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }

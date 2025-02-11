@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'drupal/recommended-project',
-        'pretty_version' => 'dev-main',
-        'version' => 'dev-main',
-        'reference' => '9cd4f212eb5f3b62e7792aead6000f21a0934112',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => null,
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -371,9 +371,9 @@
             ),
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => '9cd4f212eb5f3b62e7792aead6000f21a0934112',
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => null,
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -403,6 +403,15 @@
             'reference' => '3.1.2',
             'type' => 'drupal-theme',
             'install_path' => __DIR__ . '/../../web/themes/contrib/uswds',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'drupal/uswds_base' => array(
+            'pretty_version' => '3.9.0',
+            'version' => '3.9.0.0',
+            'reference' => '3.9.0',
+            'type' => 'drupal-theme',
+            'install_path' => __DIR__ . '/../../web/themes/contrib/uswds_base',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
@@ -649,8 +658,8 @@
         'psr/container-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '^1.0',
-                1 => '1.1|2.0',
+                0 => '1.1|2.0',
+                1 => '^1.0',
             ),
         ),
         'psr/event-dispatcher' => array(

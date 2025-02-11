@@ -1,0 +1,15 @@
+uswds:
+  version: VERSION
+  css:
+    theme:
+      assets/uswds/css/uswds.css: {}
+  js:
+    assets/uswds/js/uswds.min.js: {}
+  dependencies:
+    - core/jquery
+
+assets:
+  version: VERSION
+  css:
+    theme:
+      css/styles.css: {}

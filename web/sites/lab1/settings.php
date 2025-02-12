@@ -88,7 +88,16 @@
  * ];
  * @endcode
  */
-$databases = [];
+$databases['default']['default'] = [
+  'database' => 'db',
+  'username' => 'db',
+  'password' => 'db',
+  'host' => 'db',
+  'port' => '3306',
+  'driver' => 'mysql',
+  'prefix' => '',
+  'collation' => 'utf8mb4_general_ci',
+];
 
 /**
  * Customizing database settings.
@@ -286,7 +295,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = 'n-CEgGZu0jko_8Wh2DcudIMTcQbssreeQcJOoj6MvmL-1hxj7a1JDDmGC7ngCiC6DL30adLyjg';
 
 /**
  * Deployment identifier.
@@ -773,7 +782,6 @@ $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
  *
  * @see https://www.drupal.org/docs/installing-drupal/trusted-host-settings
  */
-# $settings['trusted_host_patterns'] = [];
 
 /**
  * The default list of directories that will be ignored by Drupal's file API.
@@ -892,3 +900,29 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
+$databases['default']['default'] = array (
+  'database' => 'db',
+  'username' => 'db',
+  'password' => 'db',
+  'prefix' => '',
+  'host' => 'db',
+  'port' => '3306',
+  'isolation_level' => 'READ COMMITTED',
+  'driver' => 'mysql',
+  'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
+  'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
+);
+
+
+// $settings['base_url'] = 'http://lab1.naldemo.ddev.site';
+
+$settings['trusted_host_patterns'] = [
+  '^naldemo\.ddev\.site$',
+  '^lab1\.naldemo\.ddev\.site$',
+  '^lab2\.naldemo\.ddev\.site$',
+];
+
+$settings['base_url'] = 'https://' . $_SERVER['HTTP_HOST'];
+
+$settings['file_public_path'] = 'sites/lab1/files';
+$settings['file_private_path'] = '../private/lab1';

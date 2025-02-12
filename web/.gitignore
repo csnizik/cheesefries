@@ -3,33 +3,33 @@
 Thumbs.db
 core
 # Ignore sensitive files
-web/sites/default/settings.*.php
-web/sites/*.services.yml
-web/sites/*.*.services.yml
+sites/default/settings.*.php
+sites/*.services.yml
+sites/*.*.services.yml
 
 
 # Ignore private files
-web/sites/*/files/private/
-web/sites/*/files/temporary/
-web/sites/*/files/sync/
-web/sites/*/files/config_*
+sites/*/files/private/
+sites/*/files/temporary/
+sites/*/files/sync/
+sites/*/files/config_*
 
 
 # Ignore contributed modules and themes
-web/sites/*/modules/contrib/
-web/sites/*/themes/contrib/
-web/modules/contrib
-web/themes/contrib
+sites/*/modules/contrib/
+sites/*/themes/contrib/
+modules/contrib/
+themes/contrib/
 
 
 # Ignore default files folder
-web/sites/default/files/
+sites/default/files/
 
 
 # Ignore cache and temporary files
-web/sites/*/files/css/
-web/sites/*/files/js/
-web/sites/*/files/php/
+sites/*/files/css/
+sites/*/files/js/
+sites/*/files/php/
 
 
 # Ignore generated and compiled files
@@ -41,7 +41,9 @@ web/sites/*/files/php/
 
 # Ignore Composer vendor folder
 vendor/
+**/vendor/
 
 
 # Ignore Node.js dependency folder
 node_modules/
+**/node_modules/

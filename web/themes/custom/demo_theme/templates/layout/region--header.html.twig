@@ -17,10 +17,13 @@
   'region',
   'region-' ~ region|clean_class,
   'usa-navbar',
+  'container'
 ]
 %}
 {% if content %}
 <div{{ attributes.addClass(classes) }}>
+  <div class="row">
     {{ content }}
+  </div>
 </div>
 {% endif %}

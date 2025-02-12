@@ -5,7 +5,9 @@ php_version: "8.3"
 webserver_type: nginx-fpm
 xdebug_enabled: false
 additional_hostnames: []
-additional_fqdns: []
+additional_fqdns:
+  - lab1.naldemo.ddev.site
+  - lab2.naldemo.ddev.site
 database:
     type: mariadb
     version: "10.11"
@@ -282,3 +284,5 @@ corepack_enable: false
 #   - exec: drush sql:sanitize
 #   - exec: drush updatedb
 #   - exec: drush cache:rebuild
+
+

@@ -4852,34 +4852,35 @@ tbody.collapse.in {
 }
 
 .navbar-default {
-    background-color: #f8f8f8;
-    border-color: #e7e7e7;
+    background-color: #162e51 !important;
+    color: #fff !important;
+    border-color: transparent;
 }
 
 .navbar-default .navbar-brand {
-    color: #777;
+    color: #fff;
 }
 
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus {
-    color: #5e5e5e;
+    color: #f8f8f8;
     background-color: transparent;
 }
 
 .navbar-default .navbar-text {
-    color: #777;
+    color: #f8f8f8;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #777;
+    color: #f8f8f8;
 }
 
 .navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus {
-    color: #333;
+    color: #f8f8f8;
     background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > .active > a:hover,.navbar-default .navbar-nav > .active > a:focus {
-    color: #555;
+    color: #f8f8f8;
     background-color: #e7e7e7;
 }
 
@@ -4889,27 +4890,27 @@ tbody.collapse.in {
 }
 
 .navbar-default .navbar-nav > .open > a,.navbar-default .navbar-nav > .open > a:hover,.navbar-default .navbar-nav > .open > a:focus {
-    color: #555;
+    color: #f8f8f8;
     background-color: #e7e7e7;
 }
 
 @media (max-width: 991px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color:#777;
+        color:#f8f8f8;
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #333;
+        color: #f8f8f8;
         background-color: transparent;
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a,.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-        color: #555;
+        color: #f8f8f8;
         background-color: #e7e7e7;
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,.navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,.navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-        color: #ccc;
+        color: #f8f8f8;
         background-color: transparent;
     }
 }
@@ -11525,6 +11526,7 @@ ul.usda-history-search-results li {
     left: -999em;
 }
 
+
 /* @license GPL-2.0-or-later https://www.drupal.org/licensing/faq */
 .text-align-left {
     text-align: left;
@@ -12476,7 +12478,7 @@ svg.ext path,svg.mailto path,svg.tel path {
 }
 
 
-/*
+
 .usa-nav__primary button[aria-expanded=false] span::after {
     @media (min-width: 64em) {
     right: 0.75rem;
@@ -12491,8 +12493,5 @@ svg.ext path,svg.mailto path,svg.tel path {
     display: flex;
     font-weight: 700;
 }
- */
 
-.usa-nav__secondary {
-  bottom: 1rem !important;
-}
+

@@ -1,0 +1,3 @@
+lab1:
+  root: /var/www/html/web
+  uri: http://lab1.naldemo.ddev.site

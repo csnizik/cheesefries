@@ -1,0 +1,23 @@
+uuid: 1514d10c-991b-4559-a2b3-22b80d90d5e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.research_tools.field_description
+    - field.field.taxonomy_term.research_tools.field_icon
+    - taxonomy.vocabulary.research_tools
+id: taxonomy_term.research_tools.default
+targetEntityType: taxonomy_term
+bundle: research_tools
+mode: default
+content:
+  field_description:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  description: true
+  field_icon: true

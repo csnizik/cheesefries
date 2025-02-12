@@ -1,0 +1,12 @@
+uuid: 8d1fd768-ed35-4566-9301-393309c19c90
+langcode: en
+status: true
+dependencies: {  }
+id: maps
+label: Maps
+description: ''
+new_revision: true
+creator_membership: true
+creator_wizard: true
+creator_roles:
+  - maps-admin

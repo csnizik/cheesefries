@@ -1,0 +1,11 @@
+uuid: 0cde0f53-6930-434e-ba27-5989bbefb9d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.menu_item
+label: 'Menu Item'
+description: ''
+targetEntityType: taxonomy_term
+cache: true

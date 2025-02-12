@@ -1,0 +1,23 @@
+uuid: 99c5c7ec-2525-42f8-a5ea-27246149bcce
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_pdf_upload
+field_name: field_pdf_upload
+entity_type: node
+type: file
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

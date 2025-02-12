@@ -1,0 +1,15 @@
+uuid: 05bc2674-3ab5-4d53-b3b2-4f665582ec32
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.health_records
+    - user.role.administrator
+id: health_records-admin_out
+label: Administrator
+weight: 101
+admin: true
+scope: outsider
+global_role: administrator
+group_type: health_records
+permissions: {  }

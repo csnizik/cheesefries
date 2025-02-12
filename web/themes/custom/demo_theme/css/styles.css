@@ -12496,3 +12496,8 @@ svg.ext path,svg.mailto path,svg.tel path {
 .usa-nav__secondary {
   bottom: 1rem !important;
 }
+
+/* Get rid of these classes once the underlying issue is solved. */
+.menu-icon__fix {
+    margin-right: 1rem;
+}

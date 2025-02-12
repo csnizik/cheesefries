@@ -1,0 +1,11 @@
+uuid: c31320f9-6489-4e3b-8c9e-5e39dd7d72fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.menu_item_icon
+label: 'Menu Item Icon'
+description: ''
+targetEntityType: media
+cache: true

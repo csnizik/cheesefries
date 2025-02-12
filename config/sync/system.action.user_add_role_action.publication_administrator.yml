@@ -1,0 +1,14 @@
+uuid: 93b77d2e-287f-4b75-b4bf-54c8db347141
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.publication_administrator
+  module:
+    - user
+id: user_add_role_action.publication_administrator
+label: 'Add the Publication Administrator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: publication_administrator

@@ -1,0 +1,38 @@
+uuid: 34619f82-18ce-4a32-8c86-232f2ea08acf
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.menu_item
+    - field.field.taxonomy_term.research_tools.field_description
+    - field.field.taxonomy_term.research_tools.field_icon
+    - taxonomy.vocabulary.research_tools
+  module:
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: taxonomy_term.research_tools.menu_item
+targetEntityType: taxonomy_term
+bundle: research_tools
+mode: menu_item
+content:
+  field_description:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_icon:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: menu_item_icon
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  description: true

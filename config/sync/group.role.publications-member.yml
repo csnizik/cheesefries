@@ -1,0 +1,15 @@
+uuid: f080fb45-3ca9-4e07-b904-2d07501a3295
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.publications
+    - user.role.authenticated
+id: publications-member
+label: Member
+weight: -100
+admin: false
+scope: insider
+global_role: authenticated
+group_type: publications
+permissions: {  }

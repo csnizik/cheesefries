@@ -1,0 +1,70 @@
+uuid: 7456bc97-e96e-4d3e-8357-54869cdbdd9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+    - views.view.dashboard_content
+  module:
+    - geofield_map
+    - layout_builder
+    - system
+    - views
+id: maps_dashboard
+label: 'Maps Dashboard'
+description: ''
+layout:
+  -
+    layout_id: layout_threecol_section
+    layout_settings:
+      label: 'Maps Dashboard'
+      context_mapping: {  }
+      column_widths: 33-34-33
+    components:
+      dbad8046-249f-4312-ade8-2d1849e55eb6:
+        uuid: dbad8046-249f-4312-ade8-2d1849e55eb6
+        region: first
+        configuration:
+          id: geofield_map_legend
+          label: 'Geofield Map Legend'
+          label_display: visible
+          provider: geofield_map
+          context_mapping: {  }
+          geofield_map_legend: null
+          legend_caption: null
+          legend_notes: null
+          values_label: null
+          markers_label: null
+          markers_image_style: null
+          markers_width: null
+        weight: 0
+        additional: {  }
+      7ec62862-48e4-488a-bb6e-e2fed86fbd49:
+        uuid: 7ec62862-48e4-488a-bb6e-e2fed86fbd49
+        region: second
+        configuration:
+          id: 'views_block:dashboard_content-block_own_recent_content'
+          label: Maps
+          label_display: visible
+          provider: views
+          context_mapping: {  }
+          views_label: Maps
+          items_per_page: none
+        weight: 0
+        additional: {  }
+      c41deede-f35e-4a99-a7a0-894add6c6187:
+        uuid: c41deede-f35e-4a99-a7a0-894add6c6187
+        region: third
+        configuration:
+          id: 'system_menu_block:account'
+          label: 'User account menu'
+          label_display: '0'
+          provider: system
+          context_mapping: {  }
+          level: 1
+          depth: 0
+          expand_all_items: false
+        weight: 0
+        additional: {  }
+    third_party_settings: {  }
+weight: 1

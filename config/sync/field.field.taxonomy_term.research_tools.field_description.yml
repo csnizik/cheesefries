@@ -1,0 +1,19 @@
+uuid: 34581d3c-8ce9-4f1d-9c14-d7d83f0878eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_description
+    - taxonomy.vocabulary.research_tools
+id: taxonomy_term.research_tools.field_description
+field_name: field_description
+entity_type: taxonomy_term
+bundle: research_tools
+label: 'Description '
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

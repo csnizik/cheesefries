@@ -1,0 +1,14 @@
+uuid: c7a5f97f-85e9-408b-abe1-81fd0a808ebf
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.publication_administrator
+  module:
+    - user
+id: user_remove_role_action.publication_administrator
+label: 'Remove the Publication Administrator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: publication_administrator

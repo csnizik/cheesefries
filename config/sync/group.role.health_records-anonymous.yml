@@ -1,0 +1,15 @@
+uuid: 5a8cb5cd-501f-4d2a-b5e4-61c2e2e59d5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.health_records
+    - user.role.anonymous
+id: health_records-anonymous
+label: Anonymous
+weight: -102
+admin: false
+scope: outsider
+global_role: anonymous
+group_type: health_records
+permissions: {  }

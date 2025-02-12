@@ -1,0 +1,14 @@
+uuid: 08e3a84f-5a83-498a-bac7-e4564bcf1083
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.health_records
+id: health_records-admin
+label: Admin
+weight: 100
+admin: true
+scope: individual
+global_role: null
+group_type: health_records
+permissions: {  }

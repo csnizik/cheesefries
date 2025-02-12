@@ -1,0 +1,39 @@
+uuid: a44b389c-c562-477a-bc14-083a6f8b5d38
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.map.field_location
+    - field.field.node.map.field_research_tool_category
+    - node.type.map
+  module:
+    - geofield
+    - user
+id: node.map.default
+targetEntityType: node
+bundle: map
+mode: default
+content:
+  field_location:
+    type: geofield_default
+    label: above
+    settings:
+      output_format: wkt
+      output_escape: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_research_tool_category:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,19 @@
+uuid: bd7192c8-8949-43b8-9146-9aa2c03fb139
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_animal_id
+    - node.type.health_record
+id: node.health_record.field_animal_id
+field_name: field_animal_id
+entity_type: node
+bundle: health_record
+label: 'Animal ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

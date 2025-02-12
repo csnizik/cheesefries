@@ -1,0 +1,14 @@
+uuid: 656d828f-db3c-4b9b-8939-55289b0d7680
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.map_administrator
+  module:
+    - user
+id: user_remove_role_action.map_administrator
+label: 'Remove the Map Administrator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: map_administrator

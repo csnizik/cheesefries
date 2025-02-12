@@ -1,0 +1,15 @@
+uuid: bca57c54-73d6-4054-bdae-867d34d8116a
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.health_records
+    - user.role.health_record_administrator
+id: health_records-admin_in
+label: Administrator
+weight: 102
+admin: true
+scope: insider
+global_role: health_record_administrator
+group_type: health_records
+permissions: {  }

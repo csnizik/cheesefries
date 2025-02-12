@@ -1,0 +1,14 @@
+uuid: f77c3f6f-3a09-4eba-bfc3-021a6e215317
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.health_record_administrator
+  module:
+    - user
+id: user_add_role_action.health_record_administrator
+label: 'Add the Health Record Administrator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: health_record_administrator

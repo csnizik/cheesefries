@@ -1,0 +1,30 @@
+uuid: 5b5216b3-bd89-4910-b8bd-11b66fb18419
+langcode: en
+status: true
+dependencies:
+  config:
+    - dashboard.dashboard.publications_dashboard
+    - node.type.publication
+  module:
+    - dashboard
+    - node
+    - system
+id: publication_administrator
+label: 'Publication Administrator'
+weight: 6
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'create publication content'
+  - 'delete any publication content'
+  - 'delete own publication content'
+  - 'delete publication revisions'
+  - 'edit any publication content'
+  - 'edit own publication content'
+  - 'revert publication revisions'
+  - 'view all revisions'
+  - 'view own unpublished content'
+  - 'view publication revisions'
+  - 'view publications_dashboard dashboard'
+  - 'view the administration theme'

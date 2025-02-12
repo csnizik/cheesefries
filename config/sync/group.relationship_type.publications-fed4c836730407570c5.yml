@@ -1,0 +1,17 @@
+uuid: cf78ba62-f4fd-4aa9-b0fb-1805c172f394
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.publications
+    - node.type.publication
+  module:
+    - gnode
+    - node
+id: publications-fed4c836730407570c5
+group_type: publications
+content_plugin: 'group_node:publication'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

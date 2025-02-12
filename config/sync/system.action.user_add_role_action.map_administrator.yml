@@ -1,0 +1,14 @@
+uuid: f2b5d284-5095-4909-b17c-c354d0228b08
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.map_administrator
+  module:
+    - user
+id: user_add_role_action.map_administrator
+label: 'Add the Map Administrator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: map_administrator

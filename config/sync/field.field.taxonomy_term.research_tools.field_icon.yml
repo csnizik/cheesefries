@@ -1,0 +1,29 @@
+uuid: 7b3fee44-ad60-4288-b269-739ea1393f6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_icon
+    - media.type.image
+    - taxonomy.vocabulary.research_tools
+id: taxonomy_term.research_tools.field_icon
+field_name: field_icon
+entity_type: taxonomy_term
+bundle: research_tools
+label: Icon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

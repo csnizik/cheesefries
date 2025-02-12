@@ -1,0 +1,14 @@
+uuid: 8d869f15-dfae-4930-ba9b-8e2c54f3e9ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.health_record_administrator
+  module:
+    - user
+id: user_remove_role_action.health_record_administrator
+label: 'Remove the Health Record Administrator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: health_record_administrator

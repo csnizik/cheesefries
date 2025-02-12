@@ -1,0 +1,26 @@
+uuid: e804ac2a-a580-4e49-bbf3-64c3256eb689
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.publication.field_pdf_upload
+    - field.field.node.publication.field_publication_date
+    - field.field.node.publication.field_research_tool_category
+    - node.type.publication
+  module:
+    - user
+id: node.publication.teaser
+targetEntityType: node
+bundle: publication
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_pdf_upload: true
+  field_publication_date: true
+  field_research_tool_category: true

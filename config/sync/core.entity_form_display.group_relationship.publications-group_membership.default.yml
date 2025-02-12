@@ -1,0 +1,38 @@
+uuid: b99d1310-f61b-4498-8a57-ede6711dda15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group_relationship.publications-group_membership.group_roles
+    - group.relationship_type.publications-group_membership
+  module:
+    - path
+id: group_relationship.publications-group_membership.default
+targetEntityType: group_relationship
+bundle: publications-group_membership
+mode: default
+content:
+  entity_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  group_roles:
+    type: options_buttons
+    weight: 31
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  uid: true

@@ -1,0 +1,33 @@
+uuid: 1002bb43-162b-4184-8e69-a27049e41b05
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_research_tool_category
+    - node.type.map
+    - taxonomy.vocabulary.research_tools
+  content:
+    - 'taxonomy_term:research_tools:be4d2e5f-9cab-4458-b447-f453238a75fe'
+id: node.map.field_research_tool_category
+field_name: field_research_tool_category
+entity_type: node
+bundle: map
+label: 'Research Tool Category'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: be4d2e5f-9cab-4458-b447-f453238a75fe
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      research_tools: research_tools
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

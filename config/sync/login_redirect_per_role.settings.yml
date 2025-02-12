@@ -1,0 +1,50 @@
+login:
+  authenticated:
+    redirect_url: ''
+    allow_destination: false
+    weight: 0
+  content_editor:
+    redirect_url: ''
+    allow_destination: false
+    weight: 0
+  administrator:
+    redirect_url: ''
+    allow_destination: false
+    weight: 0
+  map_administrator:
+    redirect_url: /admin/dashboard
+    allow_destination: true
+    weight: 0
+  health_record_administrator:
+    redirect_url: /admin/dashboard
+    allow_destination: true
+    weight: 0
+  publication_administrator:
+    redirect_url: /admin/dashboard
+    allow_destination: true
+    weight: 0
+logout:
+  authenticated:
+    redirect_url: ''
+    allow_destination: false
+    weight: 0
+  content_editor:
+    redirect_url: ''
+    allow_destination: false
+    weight: 0
+  administrator:
+    redirect_url: ''
+    allow_destination: false
+    weight: 0
+  map_administrator:
+    redirect_url: ''
+    allow_destination: false
+    weight: 0
+  health_record_administrator:
+    redirect_url: ''
+    allow_destination: false
+    weight: 0
+  publication_administrator:
+    redirect_url: ''
+    allow_destination: false
+    weight: 0

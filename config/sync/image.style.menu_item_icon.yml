@@ -1,0 +1,15 @@
+uuid: 6fb91ae0-3e21-4987-9578-776675c4f409
+langcode: en
+status: true
+dependencies: {  }
+name: menu_item_icon
+label: 'Menu Item Icon (80 x 80)'
+effects:
+  4a335be9-5d35-457d-b6a7-79c40a8db730:
+    uuid: 4a335be9-5d35-457d-b6a7-79c40a8db730
+    id: image_scale
+    weight: 1
+    data:
+      width: 80
+      height: 80
+      upscale: false

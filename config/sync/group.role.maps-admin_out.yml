@@ -1,0 +1,15 @@
+uuid: 312691a7-f767-418c-8a76-5c0baaf6ce25
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.maps
+    - user.role.administrator
+id: maps-admin_out
+label: Administrator
+weight: 101
+admin: true
+scope: outsider
+global_role: administrator
+group_type: maps
+permissions: {  }

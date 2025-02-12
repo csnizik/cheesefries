@@ -1,0 +1,23 @@
+uuid: cf0b8354-516e-4683-afb1-0f3c77917a08
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.group_relationship.maps-group_membership.group_roles
+    - group.relationship_type.maps-group_membership
+id: group_relationship.maps-group_membership.default
+targetEntityType: group_relationship
+bundle: maps-group_membership
+mode: default
+content:
+  group_roles:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: false
+    third_party_settings: {  }
+    weight: -4
+    region: content
+hidden:
+  entity_id: true
+  uid: true

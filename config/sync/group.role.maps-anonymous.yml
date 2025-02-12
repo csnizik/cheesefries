@@ -1,0 +1,15 @@
+uuid: cd1b1137-4246-43b0-84ad-ab46719eaffd
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.maps
+    - user.role.anonymous
+id: maps-anonymous
+label: Anonymous
+weight: -102
+admin: false
+scope: outsider
+global_role: anonymous
+group_type: maps
+permissions: {  }

@@ -1,0 +1,15 @@
+uuid: 6813185c-0463-4682-a713-1ac9ad599d06
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.health_records
+    - user.role.authenticated
+id: health_records-member
+label: Member
+weight: -100
+admin: false
+scope: insider
+global_role: authenticated
+group_type: health_records
+permissions: {  }

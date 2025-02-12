@@ -1,0 +1,30 @@
+uuid: 56361595-6212-45cf-8cdd-166f9a81f034
+langcode: en
+status: true
+dependencies:
+  config:
+    - dashboard.dashboard.health_records_dashboard
+    - node.type.health_record
+  module:
+    - dashboard
+    - node
+    - system
+id: health_record_administrator
+label: 'Health Record Administrator'
+weight: 5
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'create health_record content'
+  - 'delete any health_record content'
+  - 'delete health_record revisions'
+  - 'delete own health_record content'
+  - 'edit any health_record content'
+  - 'edit own health_record content'
+  - 'revert health_record revisions'
+  - 'view all revisions'
+  - 'view health_record revisions'
+  - 'view health_records_dashboard dashboard'
+  - 'view own unpublished content'
+  - 'view the administration theme'

@@ -4,10 +4,13 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.health_record.feeds_item
     - field.field.node.health_record.field_animal_id
     - field.field.node.health_record.field_date_of_record
     - field.field.node.health_record.field_health_status
     - field.field.node.health_record.field_research_tool_category
+    - field.field.node.health_record.field_species
+    - field.field.node.health_record.field_veterenarian_notes
     - node.type.health_record
   module:
     - user
@@ -22,7 +25,10 @@ content:
     weight: 100
     region: content
 hidden:
+  feeds_item: true
   field_animal_id: true
   field_date_of_record: true
   field_health_status: true
   field_research_tool_category: true
+  field_species: true
+  field_veterenarian_notes: true

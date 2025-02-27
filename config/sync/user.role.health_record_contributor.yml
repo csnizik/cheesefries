@@ -1,0 +1,24 @@
+uuid: 6b7c97b3-d5f8-4e44-a602-adad4180333c
+langcode: en
+status: true
+dependencies:
+  config:
+    - dashboard.dashboard.health_records_contributor_dashboard
+    - node.type.health_record
+  module:
+    - dashboard
+    - field_permissions
+    - node
+    - system
+id: health_record_contributor
+label: 'Health Record Contributor'
+weight: 7
+is_admin: null
+permissions:
+  - 'create health_record content'
+  - 'edit any health_record content'
+  - 'edit own health_record content'
+  - 'view field_veterenarian_notes'
+  - 'view health_records_contributor_dashboard dashboard'
+  - 'view own field_veterenarian_notes'
+  - 'view the administration theme'

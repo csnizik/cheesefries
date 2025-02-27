@@ -1,0 +1,14 @@
+uuid: 1764666a-4644-4c1e-8e7b-f0da7ba5696f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.health_record_contributor
+  module:
+    - user
+id: user_remove_role_action.health_record_contributor
+label: 'Remove the Health Record Contributor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: health_record_contributor

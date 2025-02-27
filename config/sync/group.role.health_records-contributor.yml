@@ -1,0 +1,15 @@
+uuid: 0bae08bb-9e37-4eb8-bca0-03aeaa0eb51c
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.health_records
+    - user.role.health_record_contributor
+id: health_records-contributor
+label: Contributor
+weight: 103
+admin: false
+scope: insider
+global_role: health_record_contributor
+group_type: health_records
+permissions: {  }

@@ -3,10 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.health_record.feeds_item
     - field.field.node.health_record.field_animal_id
     - field.field.node.health_record.field_date_of_record
     - field.field.node.health_record.field_health_status
     - field.field.node.health_record.field_research_tool_category
+    - field.field.node.health_record.field_species
+    - field.field.node.health_record.field_veterenarian_notes
     - node.type.health_record
   module:
     - datetime
@@ -23,7 +26,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 101
+    weight: 1
     region: content
   field_date_of_record:
     type: datetime_default
@@ -32,26 +35,35 @@ content:
       timezone_override: ''
       format_type: medium
     third_party_settings: {  }
-    weight: 103
+    weight: 3
     region: content
   field_health_status:
     type: text_default
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 102
+    weight: 2
     region: content
-  field_research_tool_category:
+  field_species:
     type: entity_reference_label
     label: above
     settings:
       link: true
     third_party_settings: {  }
-    weight: 104
+    weight: 4
+    region: content
+  field_veterenarian_notes:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
-hidden: {  }
+hidden:
+  feeds_item: true
+  field_research_tool_category: true

@@ -12501,3 +12501,54 @@ svg.ext path,svg.mailto path,svg.tel path {
 .menu-icon__fix {
     margin-right: 1rem;
 }
+
+/* Apply a flex layout to align Min/Max fields side by side */
+[data-drupal-selector*="field-location"] .fieldset-wrapper {
+}
+
+/* Ensure Min/Max inputs are on the same row */
+[data-drupal-selector*="field-location"] .fieldset-wrapper > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Limit input width to keep things compact */
+[data-drupal-selector*="field-location"] .form-item {
+}
+
+/* Ensure sliders stay full-width */
+[data-drupal-selector*="field-location"] .noUi-target {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+/* Reduce the height of the text fields so they match the slider */
+[data-drupal-selector*="field-location"] input.form-text {
+    max-width: 80px;
+}
+.usa-legend {
+    padding-top: 1.5rem !important;
+    font-size: 1.15rem !important;
+}
+
+[data-drupal-selector*="views-exposed-form-duplicate-of-all-health-records-page-1"] {
+    width: 100% !important;
+    display: flex;
+    justify-content: flex-start;
+    max-width: unset !important;
+    gap: 2rem;
+}
+
+[data-drupal-selector*="views-exposed-form-duplicate-of-all-health-records-page-1"] .form-item-uid {
+    max-width: 250px;
+}
+
+[data-drupal-selector*="views-exposed-form-duplicate-of-all-health-records-page-1"] .form-item-title {
+    min-width: 350px;
+    max-width: 100%;
+}
+
+[data-drupal-selector*="views-exposed-form-duplicate-of-all-health-records-page-1"] [data-drupal-selector*="edit-actions"] {
+    align-self:center;
+}

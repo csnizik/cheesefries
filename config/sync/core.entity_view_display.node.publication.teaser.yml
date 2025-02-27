@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.publication.feeds_item
     - field.field.node.publication.field_pdf_upload
     - field.field.node.publication.field_publication_date
     - field.field.node.publication.field_research_tool_category
@@ -21,6 +22,7 @@ content:
     weight: 100
     region: content
 hidden:
+  feeds_item: true
   field_pdf_upload: true
   field_publication_date: true
   field_research_tool_category: true

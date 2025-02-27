@@ -5,6 +5,7 @@ dependencies:
   config:
     - system.menu.account
     - system.menu.admin
+    - views.view.all_health_records
     - views.view.dashboard_content
   module:
     - layout_builder
@@ -56,19 +57,6 @@ layout:
           items_per_page: none
         weight: 0
         additional: {  }
-      b7a7856d-9a66-4336-bcdb-17bfcf606201:
-        uuid: b7a7856d-9a66-4336-bcdb-17bfcf606201
-        region: second
-        configuration:
-          id: 'views_block:dashboard_content-block_site_content'
-          label: Pages
-          label_display: visible
-          provider: views
-          context_mapping: {  }
-          views_label: Pages
-          items_per_page: '20'
-        weight: 0
-        additional: {  }
       049e5fa5-e590-4f28-a594-c41ee89b2a77:
         uuid: 049e5fa5-e590-4f28-a594-c41ee89b2a77
         region: first
@@ -82,6 +70,19 @@ layout:
           depth: 0
           expand_all_items: false
         weight: 1
+        additional: {  }
+      53b8170b-27dc-4e8c-a0d3-058d655fd9ca:
+        uuid: 53b8170b-27dc-4e8c-a0d3-058d655fd9ca
+        region: second
+        configuration:
+          id: 'views_block:all_health_records-block_1'
+          label: ''
+          label_display: visible
+          provider: views
+          context_mapping: {  }
+          views_label: ''
+          items_per_page: none
+        weight: 0
         additional: {  }
     third_party_settings: {  }
 weight: 2

@@ -1,0 +1,5 @@
+name: 'Demo Site'
+type: module
+description: 'Various stuff for this demo site.'
+package: Custom
+core_version_requirement: ^10 || ^11

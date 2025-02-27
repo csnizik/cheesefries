@@ -7,8 +7,15 @@ dependencies:
     - field.field.node.map.field_research_tool_category
     - node.type.map
   module:
+    - field_layout
     - geofield
+    - layout_discovery
     - path
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 id: node.map.default
 targetEntityType: node
 bundle: map

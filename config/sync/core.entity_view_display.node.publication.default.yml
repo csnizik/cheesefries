@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.publication.feeds_item
     - field.field.node.publication.field_pdf_upload
     - field.field.node.publication.field_publication_date
     - field.field.node.publication.field_research_tool_category
@@ -46,4 +47,5 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  feeds_item: true

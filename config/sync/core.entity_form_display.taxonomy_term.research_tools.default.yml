@@ -7,8 +7,15 @@ dependencies:
     - field.field.taxonomy_term.research_tools.field_icon
     - taxonomy.vocabulary.research_tools
   module:
+    - field_layout
+    - layout_discovery
     - media_library
     - path
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 id: taxonomy_term.research_tools.default
 targetEntityType: taxonomy_term
 bundle: research_tools

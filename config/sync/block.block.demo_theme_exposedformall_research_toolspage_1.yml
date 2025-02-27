@@ -1,0 +1,28 @@
+uuid: 18a3e68b-e1f2-4946-adce-c411e8d8cf3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.all_research_tools
+  module:
+    - system
+    - views
+  theme:
+    - demo_theme
+id: demo_theme_exposedformall_research_toolspage_1
+theme: demo_theme
+region: content
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:all_research_tools-page_1'
+settings:
+  id: 'views_exposed_filter_block:all_research_tools-page_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /all-tools

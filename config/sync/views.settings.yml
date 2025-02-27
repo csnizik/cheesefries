@@ -4,13 +4,13 @@ display_extenders: {  }
 sql_signature: false
 ui:
   show:
-    additional_queries: true
+    additional_queries: false
     advanced_column: true
     default_display: false
-    performance_statistics: true
+    performance_statistics: false
     preview_information: true
     sql_query:
-      enabled: true
+      enabled: false
       where: above
     display_embed: true
   always_live_preview: true

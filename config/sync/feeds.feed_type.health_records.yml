@@ -1,0 +1,120 @@
+uuid: 1ba20636-846b-487a-a5e3-02240a863135
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.health_record.field_animal_id
+    - field.field.node.health_record.field_date_of_record
+    - field.field.node.health_record.field_research_tool_category
+    - field.field.node.health_record.field_species
+    - field.field.node.health_record.field_veterenarian_notes
+    - node.type.health_record
+  module:
+    - node
+label: 'Health Records'
+id: health_records
+description: ''
+help: ''
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: csv
+  directory: 'public://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ','
+  no_headers: false
+  line_limit: 100
+processor: 'entity:node'
+processor_configuration:
+  values:
+    type: health_record
+  langcode: en
+  insert_new: 1
+  update_existing: 0
+  update_non_existent: _keep
+  skip_hash_check: false
+  skip_validation: false
+  skip_validation_types: {  }
+  authorize: true
+  revision: false
+  expire: -1
+  owner_feed_author: false
+  owner_id: 0
+custom_sources:
+  animal_id:
+    value: animal_id
+    label: animal_id
+    machine_name: animal_id
+    type: csv
+  date_of_record:
+    value: date_of_record
+    label: date_of_record
+    machine_name: date_of_record
+    type: csv
+  species:
+    value: species
+    label: species
+    machine_name: species
+    type: csv
+  veterinarian_notes:
+    value: veterinarian_notes
+    label: veterinarian_notes
+    machine_name: veterinarian_notes
+    type: csv
+  research_tool_category:
+    value: research_tool_category
+    label: research_tool_category
+    machine_name: research_tool_category
+    type: csv
+  title:
+    value: title
+    label: title
+    machine_name: title
+    type: csv
+mappings:
+  -
+    target: field_animal_id
+    map:
+      value: animal_id
+    settings:
+      language: null
+    unique: {  }
+  -
+    target: field_date_of_record
+    map:
+      value: date_of_record
+    settings:
+      language: null
+      timezone: UTC
+  -
+    target: field_species
+    map:
+      target_id: species
+    settings:
+      language: ''
+      reference_by: tid
+      autocreate: 0
+      autocreate_bundle: species
+  -
+    target: field_veterenarian_notes
+    map:
+      value: veterinarian_notes
+    settings:
+      language: null
+  -
+    target: field_research_tool_category
+    map:
+      target_id: research_tool_category
+    settings:
+      language: ''
+      reference_by: tid
+      autocreate: 0
+      autocreate_bundle: research_tools
+  -
+    target: title
+    map:
+      value: title
+    settings:
+      language: null
+    unique: {  }

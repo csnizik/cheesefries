@@ -40,7 +40,7 @@ web/sites/*/files/php/
 
 
 # Ignore Composer vendor folder
-web/vendor/
+vendor/
 **/vendor/
 
 

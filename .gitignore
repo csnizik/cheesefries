@@ -45,5 +45,5 @@ vendor/
 
 
 # Ignore Node.js dependency folder
-web/node_modules/
+node_modules/
 **/node_modules/

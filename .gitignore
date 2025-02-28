@@ -33,7 +33,7 @@ web/sites/*/files/php/
 
 
 # Ignore generated and compiled files
-*.gz
+# *.gz
 *.tar
 *.zip
 *.log

@@ -1,0 +1,14 @@
+uuid: 34c686a3-3103-4748-a202-c9a23d3097c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.agwa_editor
+  module:
+    - user
+id: user_add_role_action.agwa_editor
+label: 'Add the AGWA Editor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: agwa_editor

@@ -1,0 +1,13 @@
+uuid: 8b93aa50-4708-48f3-b0f9-9a95e7cc15a8
+langcode: en
+status: true
+dependencies: {  }
+id: rhem_documnet
+label: 'RHEM Document'
+description: ''
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_document
+field_map: {  }

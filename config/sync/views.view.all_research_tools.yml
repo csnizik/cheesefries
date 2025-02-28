@@ -1,6 +1,6 @@
 uuid: 89358667-ca89-4fa9-b413-3703afc4f154
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - field.storage.node.field_research_tool_category

@@ -1,0 +1,24 @@
+uuid: 6ea1a468-608e-402a-9432-a2ce40b96b7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.dap_private_record
+  module:
+    - text
+id: node.dap_private_record.body
+field_name: body
+entity_type: node
+bundle: dap_private_record
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

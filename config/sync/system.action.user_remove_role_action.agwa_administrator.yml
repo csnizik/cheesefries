@@ -1,0 +1,14 @@
+uuid: ef73124e-df38-4d84-9d08-5192603e3a2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.agwa_administrator
+  module:
+    - user
+id: user_remove_role_action.agwa_administrator
+label: 'Remove the AGWA Administrator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: agwa_administrator

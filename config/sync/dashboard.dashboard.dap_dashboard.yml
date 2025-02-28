@@ -1,0 +1,9 @@
+uuid: 89f19550-a3ac-4eff-ad4d-918a8b45b163
+langcode: en
+status: true
+dependencies: {  }
+id: dap_dashboard
+label: 'DAP Dashboard'
+description: ''
+layout: {  }
+weight: 6

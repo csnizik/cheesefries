@@ -11,48 +11,64 @@ login:
     redirect_url: ''
     allow_destination: false
     weight: 0
-  map_administrator:
-    redirect_url: /node/532
-    allow_destination: true
+  rhem_administrator:
+    redirect_url: ''
+    allow_destination: false
     weight: 0
-  health_record_administrator:
-    redirect_url: /admin/dashboard
-    allow_destination: true
+  rhem_uploader:
+    redirect_url: ''
+    allow_destination: false
     weight: 0
-  publication_administrator:
-    redirect_url: /node/531
-    allow_destination: true
+  dap_administrator:
+    redirect_url: ''
+    allow_destination: false
     weight: 0
-  health_record_contributor:
-    redirect_url: /admin/dashboard
-    allow_destination: true
+  dap_editor:
+    redirect_url: ''
+    allow_destination: false
+    weight: 0
+  agwa_administrator:
+    redirect_url: /admin/dashboard/dashboard_agwa
+    allow_destination: false
+    weight: 0
+  agwa_editor:
+    redirect_url: /admin/dashboard/dashboard_agwa
+    allow_destination: false
     weight: 0
 logout:
   authenticated:
-    redirect_url: ''
+    redirect_url: /user/login
     allow_destination: false
     weight: 0
   content_editor:
-    redirect_url: ''
+    redirect_url: /user/login
     allow_destination: false
     weight: 0
   administrator:
-    redirect_url: ''
-    allow_destination: false
-    weight: 0
-  map_administrator:
     redirect_url: /user/login
     allow_destination: false
     weight: 0
-  health_record_administrator:
+  rhem_administrator:
     redirect_url: /user/login
     allow_destination: false
     weight: 0
-  publication_administrator:
+  rhem_uploader:
     redirect_url: /user/login
     allow_destination: false
     weight: 0
-  health_record_contributor:
+  dap_administrator:
+    redirect_url: /user/login
+    allow_destination: false
+    weight: 0
+  dap_editor:
+    redirect_url: /user/login
+    allow_destination: false
+    weight: 0
+  agwa_administrator:
+    redirect_url: /user/login
+    allow_destination: false
+    weight: 0
+  agwa_editor:
     redirect_url: /user/login
     allow_destination: false
     weight: 0

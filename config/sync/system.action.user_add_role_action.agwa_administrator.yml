@@ -1,0 +1,14 @@
+uuid: b7dd4f02-8031-4741-bc1c-7eff29bfdd6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.agwa_administrator
+  module:
+    - user
+id: user_add_role_action.agwa_administrator
+label: 'Add the AGWA Administrator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: agwa_administrator

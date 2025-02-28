@@ -1,0 +1,37 @@
+uuid: 50cd1521-ac1f-4eb9-a1cb-cbbcaddb9345
+langcode: en
+status: true
+dependencies:
+  config:
+    - dashboard.dashboard.dap_dashboard
+    - node.type.dap_private_record
+    - node.type.dap_record
+  module:
+    - admin_toolbar_search
+    - dashboard
+    - node
+    - system
+id: dap_administrator
+label: 'DAP Administrator'
+weight: 12
+is_admin: null
+permissions:
+  - 'create dap_private_record content'
+  - 'create dap_record content'
+  - 'delete any dap_private_record content'
+  - 'delete any dap_record content'
+  - 'delete dap_private_record revisions'
+  - 'delete dap_record revisions'
+  - 'delete own dap_private_record content'
+  - 'delete own dap_record content'
+  - 'edit any dap_private_record content'
+  - 'edit any dap_record content'
+  - 'edit own dap_private_record content'
+  - 'edit own dap_record content'
+  - 'revert dap_private_record revisions'
+  - 'revert dap_record revisions'
+  - 'use admin toolbar search'
+  - 'view dap_dashboard dashboard'
+  - 'view dap_private_record revisions'
+  - 'view dap_record revisions'
+  - 'view the administration theme'

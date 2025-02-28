@@ -1,0 +1,35 @@
+uuid: 2724df61-ff60-421f-8410-d28b57c5a41e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.media.media_library
+    - field.field.media.rhem_documnet.field_media_document
+    - media.type.rhem_documnet
+  module:
+    - field_layout
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+id: media.rhem_documnet.media_library
+targetEntityType: media
+bundle: rhem_documnet
+mode: media_library
+content:
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  field_media_document: true
+  path: true
+  status: true
+  uid: true

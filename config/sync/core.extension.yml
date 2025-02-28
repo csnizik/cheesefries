@@ -1,7 +1,6 @@
 _core:
   default_config_hash: 4GIX5Esnc_umpXUBj4IIocRX7Mt5fPhm4AgXfE3E56E
 module:
-  actions_permissions: 0
   admin_toolbar: 0
   admin_toolbar_search: 0
   admin_toolbar_tools: 0
@@ -31,7 +30,6 @@ module:
   feeds_tamper: 0
   field: 0
   field_layout: 0
-  field_permissions: 0
   field_ui: 0
   file: 0
   filter: 0
@@ -57,6 +55,7 @@ module:
   media_library: 0
   menu_link_content: 0
   menu_ui: 0
+  msqrole: 0
   mysql: 0
   node: 0
   options: 0

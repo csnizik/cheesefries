@@ -1,0 +1,18 @@
+uuid: 38654083-5667-49af-85e8-893b5fe04ead
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.dap_group
+id: group.dap_group.label
+field_name: label
+entity_type: group
+bundle: dap_group
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

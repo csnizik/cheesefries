@@ -1,0 +1,21 @@
+uuid: 77cbab2a-d955-42bc-833f-46942d802e20
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_of_record
+    - node.type.agwa_record
+  module:
+    - datetime
+id: node.agwa_record.field_date_of_record
+field_name: field_date_of_record
+entity_type: node
+bundle: agwa_record
+label: 'Date of Record'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

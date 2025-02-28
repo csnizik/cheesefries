@@ -1,0 +1,15 @@
+uuid: f11c3f16-0d4e-4aae-8851-d97a6bfd0f85
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.dap_group
+    - user.role.administrator
+id: dap_group-admin_out
+label: Administrator
+weight: 101
+admin: true
+scope: outsider
+global_role: administrator
+group_type: dap_group
+permissions: {  }

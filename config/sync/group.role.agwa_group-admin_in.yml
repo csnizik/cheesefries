@@ -1,0 +1,15 @@
+uuid: ec5dc8ab-f719-4768-a0e4-3f83c69989fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.agwa_group
+    - user.role.administrator
+id: agwa_group-admin_in
+label: Administrator
+weight: 102
+admin: true
+scope: insider
+global_role: administrator
+group_type: agwa_group
+permissions: {  }

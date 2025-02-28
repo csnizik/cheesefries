@@ -1,0 +1,26 @@
+uuid: 4120577b-aa21-44c5-901c-cb5514e0bde4
+langcode: en
+status: true
+dependencies:
+  config:
+    - dashboard.dashboard.dap_dashboard
+    - node.type.dap_record
+  module:
+    - admin_toolbar_search
+    - dashboard
+    - node
+id: dap_editor
+label: 'DAP Editor'
+weight: 13
+is_admin: null
+permissions:
+  - 'create dap_record content'
+  - 'delete any dap_record content'
+  - 'delete dap_record revisions'
+  - 'delete own dap_record content'
+  - 'edit any dap_record content'
+  - 'edit own dap_record content'
+  - 'revert dap_record revisions'
+  - 'use admin toolbar search'
+  - 'view dap_dashboard dashboard'
+  - 'view dap_record revisions'

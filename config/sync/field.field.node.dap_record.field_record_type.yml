@@ -1,0 +1,21 @@
+uuid: cd894c33-b54c-4bb6-99a6-8e935aa17aa8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_record_type
+    - node.type.dap_record
+  module:
+    - options
+id: node.dap_record.field_record_type
+field_name: field_record_type
+entity_type: node
+bundle: dap_record
+label: 'Record Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

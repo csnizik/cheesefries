@@ -1,0 +1,24 @@
+uuid: f62cc493-4b8e-493d-9644-cb509bc932a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.agwa_private_record
+  module:
+    - text
+id: node.agwa_private_record.body
+field_name: body
+entity_type: node
+bundle: agwa_private_record
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

@@ -1,0 +1,18 @@
+uuid: be4eb276-be60-4d6d-856a-8b077fa79533
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'AGWA Record'
+type: agwa_record
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

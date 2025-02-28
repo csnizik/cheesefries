@@ -1,0 +1,25 @@
+uuid: 1248fffa-f63d-47cb-b094-3fbdcfcdf8fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.rhem_documnet
+  module:
+    - admin_toolbar_search
+    - media
+    - system
+id: rhem_administrator
+label: 'RHEM Administrator'
+weight: 10
+is_admin: null
+permissions:
+  - 'create rhem_documnet media'
+  - 'delete any rhem_documnet media'
+  - 'delete any rhem_documnet media revisions'
+  - 'delete own rhem_documnet media'
+  - 'edit any rhem_documnet media'
+  - 'edit own rhem_documnet media'
+  - 'revert any rhem_documnet media revisions'
+  - 'use admin toolbar search'
+  - 'view any rhem_documnet media revisions'
+  - 'view the administration theme'

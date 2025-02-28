@@ -1,0 +1,14 @@
+uuid: 8e011ca5-429a-4b0a-9746-a319b6ab0d75
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.dap_editor
+  module:
+    - user
+id: user_remove_role_action.dap_editor
+label: 'Remove the DAP Editor role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: dap_editor

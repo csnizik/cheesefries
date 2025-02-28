@@ -1,0 +1,37 @@
+uuid: 4c6cd917-8c0d-4249-bc20-fab5147f8a45
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.dap_record.body
+    - field.field.node.dap_record.field_record_type
+    - node.type.dap_record
+  module:
+    - options
+    - text
+    - user
+id: node.dap_record.default
+targetEntityType: node
+bundle: dap_record
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_record_type:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

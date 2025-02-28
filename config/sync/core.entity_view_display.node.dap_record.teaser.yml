@@ -1,0 +1,32 @@
+uuid: 96c97562-033e-4e89-8d0b-0f38372dee52
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.dap_record.body
+    - field.field.node.dap_record.field_record_type
+    - node.type.dap_record
+  module:
+    - text
+    - user
+id: node.dap_record.teaser
+targetEntityType: node
+bundle: dap_record
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_record_type: true

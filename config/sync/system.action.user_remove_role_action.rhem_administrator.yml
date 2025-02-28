@@ -1,0 +1,14 @@
+uuid: eb845626-5f5d-4ba3-aa0e-8d97c360f9f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.rhem_administrator
+  module:
+    - user
+id: user_remove_role_action.rhem_administrator
+label: 'Remove the RHEM Administrator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: rhem_administrator

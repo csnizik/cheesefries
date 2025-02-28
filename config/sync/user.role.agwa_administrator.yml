@@ -1,0 +1,38 @@
+uuid: f5b722e9-7435-4655-b7df-1c866215e2a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - dashboard.dashboard.dashboard_agwa
+    - node.type.agwa_private_record
+    - node.type.agwa_record
+  module:
+    - admin_toolbar_search
+    - dashboard
+    - node
+    - system
+id: agwa_administrator
+label: 'AGWA Administrator'
+weight: 14
+is_admin: null
+permissions:
+  - 'create agwa_private_record content'
+  - 'create agwa_record content'
+  - 'delete agwa_private_record revisions'
+  - 'delete agwa_record revisions'
+  - 'delete any agwa_private_record content'
+  - 'delete any agwa_record content'
+  - 'delete own agwa_private_record content'
+  - 'delete own agwa_record content'
+  - 'edit any agwa_private_record content'
+  - 'edit any agwa_record content'
+  - 'edit own agwa_private_record content'
+  - 'edit own agwa_record content'
+  - 'revert agwa_private_record revisions'
+  - 'revert agwa_record revisions'
+  - 'use admin toolbar search'
+  - 'view agwa_private_record revisions'
+  - 'view agwa_record revisions'
+  - 'view dashboard_agwa dashboard'
+  - 'view own unpublished content'
+  - 'view the administration theme'

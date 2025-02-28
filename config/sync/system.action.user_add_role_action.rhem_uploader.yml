@@ -1,0 +1,14 @@
+uuid: 4dcf7dcb-bab5-4e38-96ec-39e005714348
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.rhem_uploader
+  module:
+    - user
+id: user_add_role_action.rhem_uploader
+label: 'Add the RHEM Uploader role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: rhem_uploader

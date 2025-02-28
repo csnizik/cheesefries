@@ -1,0 +1,32 @@
+uuid: e911d228-d508-440a-977e-8db31b6cb957
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.media_library
+    - field.field.media.rhem_documnet.field_media_document
+    - image.style.medium
+    - media.type.rhem_documnet
+  module:
+    - image
+id: media.rhem_documnet.media_library
+targetEntityType: media
+bundle: rhem_documnet
+mode: media_library
+content:
+  thumbnail:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  field_media_document: true
+  name: true
+  uid: true

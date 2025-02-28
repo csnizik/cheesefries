@@ -1,0 +1,28 @@
+uuid: 4082be11-66c9-4e0d-9cc0-eef6f971e227
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.dap_private_record.body
+    - node.type.dap_private_record
+  module:
+    - text
+    - user
+id: node.dap_private_record.default
+targetEntityType: node
+bundle: dap_private_record
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

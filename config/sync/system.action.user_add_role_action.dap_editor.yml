@@ -1,0 +1,14 @@
+uuid: 2fe77e51-aece-4337-ae6b-20a47b11e09d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.dap_editor
+  module:
+    - user
+id: user_add_role_action.dap_editor
+label: 'Add the DAP Editor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: dap_editor

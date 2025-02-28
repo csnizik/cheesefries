@@ -1,0 +1,17 @@
+uuid: 785952c4-1ed9-407c-906a-3cc6be0582c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.agwa_group
+    - node.type.agwa_private_record
+  module:
+    - gnode
+    - node
+id: agwa_group-5625bce6a9f6a103c8bab
+group_type: agwa_group
+content_plugin: 'group_node:agwa_private_record'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: false

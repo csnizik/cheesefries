@@ -1,0 +1,14 @@
+uuid: f0ce0550-b9a9-4dbc-a4ce-d45db68908ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.rhem_administrator
+  module:
+    - user
+id: user_add_role_action.rhem_administrator
+label: 'Add the RHEM Administrator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: rhem_administrator

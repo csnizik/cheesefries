@@ -1,0 +1,15 @@
+uuid: e59e05dd-1edf-4414-a119-ebee5be5681f
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.rhem_group
+    - user.role.administrator
+id: rhem_group-admin_out
+label: Administrator
+weight: 101
+admin: true
+scope: outsider
+global_role: administrator
+group_type: rhem_group
+permissions: {  }

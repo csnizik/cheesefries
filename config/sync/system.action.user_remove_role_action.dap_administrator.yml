@@ -1,0 +1,14 @@
+uuid: 0ba803cc-1944-41be-9666-3bf9bc845a55
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.dap_administrator
+  module:
+    - user
+id: user_remove_role_action.dap_administrator
+label: 'Remove the DAP Administrator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: dap_administrator

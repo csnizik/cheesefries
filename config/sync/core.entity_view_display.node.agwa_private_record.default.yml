@@ -1,0 +1,28 @@
+uuid: 65a6248a-fdfe-4a7d-ac50-149b2469812f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.agwa_private_record.body
+    - node.type.agwa_private_record
+  module:
+    - text
+    - user
+id: node.agwa_private_record.default
+targetEntityType: node
+bundle: agwa_private_record
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

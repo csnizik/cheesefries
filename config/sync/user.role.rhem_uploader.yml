@@ -1,0 +1,23 @@
+uuid: 432389ea-6c85-47ad-8cad-5e0c1cdf5c0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.rhem_documnet
+  module:
+    - media
+    - system
+id: rhem_uploader
+label: 'RHEM Uploader'
+weight: 11
+is_admin: null
+permissions:
+  - 'create rhem_documnet media'
+  - 'delete any rhem_documnet media'
+  - 'delete any rhem_documnet media revisions'
+  - 'delete own rhem_documnet media'
+  - 'edit any rhem_documnet media'
+  - 'edit own rhem_documnet media'
+  - 'revert any rhem_documnet media revisions'
+  - 'view any rhem_documnet media revisions'
+  - 'view the administration theme'

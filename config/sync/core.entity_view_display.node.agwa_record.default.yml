@@ -1,0 +1,49 @@
+uuid: 207b44a4-df73-4514-ae46-0feef4a75a87
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.agwa_record.body
+    - field.field.node.agwa_record.field_date_of_record
+    - field.field.node.agwa_record.field_pdf_upload
+    - node.type.agwa_record
+  module:
+    - datetime
+    - file
+    - text
+    - user
+id: node.agwa_record.default
+targetEntityType: node
+bundle: agwa_record
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_date_of_record:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_pdf_upload:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

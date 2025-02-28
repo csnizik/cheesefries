@@ -1,0 +1,14 @@
+uuid: 7d773fbc-f225-4b07-b1e1-20ee7157f9da
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.rhem_uploader
+  module:
+    - user
+id: user_remove_role_action.rhem_uploader
+label: 'Remove the RHEM Uploader role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: rhem_uploader

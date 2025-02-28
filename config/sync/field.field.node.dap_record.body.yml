@@ -1,0 +1,24 @@
+uuid: 6268c6f3-bf76-4326-bf5d-bc3a15a19668
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.dap_record
+  module:
+    - text
+id: node.dap_record.body
+field_name: body
+entity_type: node
+bundle: dap_record
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

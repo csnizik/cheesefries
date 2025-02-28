@@ -1,0 +1,27 @@
+uuid: 0325d24c-8a61-48cd-8a2a-b60c1c8b689a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_pdf_upload
+    - node.type.agwa_record
+  module:
+    - file
+id: node.agwa_record.field_pdf_upload
+field_name: field_pdf_upload
+entity_type: node
+bundle: agwa_record
+label: Upload
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: txt
+  max_filesize: ''
+  description_field: false
+field_type: file

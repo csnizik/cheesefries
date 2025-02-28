@@ -1,0 +1,18 @@
+uuid: b1232658-c120-4565-a2e7-57f2b5cb9c0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.rhem_group
+id: group.rhem_group.label
+field_name: label
+entity_type: group
+bundle: rhem_group
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

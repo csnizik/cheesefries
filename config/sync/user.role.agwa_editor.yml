@@ -1,0 +1,29 @@
+uuid: f7ccf6c5-34e7-4b70-aeca-8e99de6531de
+langcode: en
+status: true
+dependencies:
+  config:
+    - dashboard.dashboard.dashboard_agwa
+    - node.type.agwa_record
+  module:
+    - admin_toolbar_search
+    - dashboard
+    - node
+    - system
+id: agwa_editor
+label: 'AGWA Editor'
+weight: 15
+is_admin: null
+permissions:
+  - 'create agwa_record content'
+  - 'delete agwa_record revisions'
+  - 'delete any agwa_record content'
+  - 'delete own agwa_record content'
+  - 'edit any agwa_record content'
+  - 'edit own agwa_record content'
+  - 'revert agwa_record revisions'
+  - 'use admin toolbar search'
+  - 'view agwa_record revisions'
+  - 'view dashboard_agwa dashboard'
+  - 'view own unpublished content'
+  - 'view the administration theme'

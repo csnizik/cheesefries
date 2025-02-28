@@ -1,0 +1,14 @@
+uuid: d1597e70-85cd-4b24-b3f2-91d7878907ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.dap_administrator
+  module:
+    - user
+id: user_add_role_action.dap_administrator
+label: 'Add the DAP Administrator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: dap_administrator

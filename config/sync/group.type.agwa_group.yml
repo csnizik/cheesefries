@@ -1,0 +1,11 @@
+uuid: 3d2cfc54-122d-48d1-9d92-5b43d961aa5d
+langcode: en
+status: true
+dependencies: {  }
+id: agwa_group
+label: 'AGWA Group'
+description: ''
+new_revision: true
+creator_membership: true
+creator_wizard: true
+creator_roles: {  }

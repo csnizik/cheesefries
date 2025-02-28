@@ -1,0 +1,27 @@
+uuid: 3cbe1a87-4384-4c72-86fe-43fe40d04cbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.rhem_documnet.field_media_document
+    - media.type.rhem_documnet
+  module:
+    - file
+id: media.rhem_documnet.default
+targetEntityType: media
+bundle: rhem_documnet
+mode: default
+content:
+  field_media_document:
+    type: file_default
+    label: visually_hidden
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

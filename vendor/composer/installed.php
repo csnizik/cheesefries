@@ -3,7 +3,7 @@
         'name' => 'drupal/recommended-project',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '78527db82c1f36447c6857b16cb7673728c2fab5',
+        'reference' => '82ad5ec81cb04dffc76d72ca5323b55242e067c0',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -568,6 +568,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/msqrole' => array(
+            'pretty_version' => '1.0.18',
+            'version' => '1.0.18.0',
+            'reference' => '1.0.18',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/msqrole',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/nouislider_js' => array(
             'pretty_version' => '15.8.1',
             'version' => '15.8.1.0',
@@ -580,7 +589,7 @@
         'drupal/recommended-project' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '78527db82c1f36447c6857b16cb7673728c2fab5',
+            'reference' => '82ad5ec81cb04dffc76d72ca5323b55242e067c0',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

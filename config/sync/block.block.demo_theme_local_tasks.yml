@@ -9,7 +9,7 @@ _core:
 id: demo_theme_local_tasks
 theme: demo_theme
 region: content
-weight: 20
+weight: -3
 provider: null
 plugin: local_tasks_block
 settings:

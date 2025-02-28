@@ -3302,6 +3302,54 @@
             "install-path": "../../web/modules/contrib/login_redirect_per_role"
         },
         {
+            "name": "drupal/msqrole",
+            "version": "1.0.18",
+            "version_normalized": "1.0.18.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/msqrole.git",
+                "reference": "1.0.18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/msqrole-1.0.18.zip",
+                "reference": "1.0.18",
+                "shasum": "6634e85bdc85160664cffdaa482aa28ff086e04e"
+            },
+            "require": {
+                "drupal/core": "^10 || ^11",
+                "php": ">=8.1"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.18",
+                    "datestamp": "1729931144",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "randalv",
+                    "homepage": "https://www.drupal.org/user/3612901"
+                }
+            ],
+            "description": "Allows the user to masquerade as certain roles rather than specific users.",
+            "homepage": "https://www.drupal.org/project/msqrole",
+            "support": {
+                "source": "https://git.drupalcode.org/project/msqrole"
+            },
+            "install-path": "../../web/modules/contrib/msqrole"
+        },
+        {
             "name": "drupal/nouislider_js",
             "version": "15.8.1",
             "version_normalized": "15.8.1.0",

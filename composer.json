@@ -35,6 +35,7 @@
         "drupal/leaflet": "^10.2",
         "drupal/leaflet_more_maps": "^2.2",
         "drupal/login_redirect_per_role": "^1.10",
+        "drupal/msqrole": "^1.0",
         "drupal/uswds": "^3.1",
         "drupal/uswds_base": "^3.9",
         "drupal/views_bulk_operations": "^4.3",

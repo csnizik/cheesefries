@@ -11,7 +11,7 @@ _core:
 id: demo_theme_page_title
 theme: demo_theme
 region: content
-weight: 0
+weight: -6
 provider: null
 plugin: page_title_block
 settings:
@@ -23,4 +23,4 @@ visibility:
   request_path:
     id: request_path
     negate: true
-    pages: /node/301
+    pages: "/dap\r\n/agwa\r\n/rhem"

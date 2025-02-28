@@ -1,4 +1,4 @@
-uuid: 3707035b-24ce-48c3-ac0d-b6820edad69c
+uuid: 87fff318-85e2-4bd5-9fed-8da01365155d
 langcode: en
 status: true
 dependencies:
@@ -6,12 +6,14 @@ dependencies:
     - field.storage.node.body
     - node.type.agwa_private_record
     - node.type.agwa_record
+    - node.type.dap_private_record
+    - node.type.dap_record
   module:
     - better_exposed_filters
     - node
     - text
-id: all_agwa_content
-label: 'All AGWA Content'
+id: all_lab_content
+label: "All Labs' Content"
 module: views
 description: ''
 tag: ''
@@ -24,7 +26,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: 'All AGWA Content'
+      title: ''
       fields:
         title:
           id: title
@@ -183,7 +185,7 @@ display:
               secondary_open: false
               reset_button_always_show: true
             filter:
-              body_value:
+              title:
                 plugin_id: default
                 advanced:
                   placeholder_text: ''
@@ -191,10 +193,13 @@ display:
                   collapsible_disable_automatic_open: false
                   is_secondary: false
                   hide_label: false
-              title:
+              type_1:
                 plugin_id: default
                 advanced:
-                  placeholder_text: ''
+                  sort_options: false
+                  rewrite:
+                    filter_rewrite_values: ''
+                    filter_rewrite_values_key: false
                   collapsible: false
                   collapsible_disable_automatic_open: false
                   is_secondary: false
@@ -250,6 +255,8 @@ display:
           value:
             agwa_private_record: agwa_private_record
             agwa_record: agwa_record
+            dap_private_record: dap_private_record
+            dap_record: dap_record
           group: 1
           exposed: false
           expose:
@@ -295,7 +302,7 @@ display:
           exposed: true
           expose:
             operator_id: title_op
-            label: 'Search all AGWA content'
+            label: 'Search all content'
             description: ''
             use_operator: false
             operator: title_op
@@ -332,6 +339,60 @@ display:
               1: {  }
               2: {  }
               3: {  }
+        type_1:
+          id: type_1
+          table: node_field_data
+          field: type
+          relationship: none
+          group_type: group
+          admin_label: ''
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+          operator: in
+          value:
+            agwa_private_record: agwa_private_record
+            agwa_record: agwa_record
+            dap_private_record: dap_private_record
+            dap_record: dap_record
+          group: 1
+          exposed: true
+          expose:
+            operator_id: type_1_op
+            label: 'Content type'
+            description: ''
+            use_operator: false
+            operator: type_1_op
+            operator_limit_selection: false
+            operator_list: {  }
+            identifier: type
+            required: false
+            remember: false
+            multiple: false
+            remember_roles:
+              authenticated: authenticated
+              anonymous: '0'
+              content_editor: '0'
+              administrator: '0'
+              rhem_administrator: '0'
+              rhem_uploader: '0'
+              dap_administrator: '0'
+              dap_editor: '0'
+              agwa_administrator: '0'
+              agwa_editor: '0'
+            reduce: true
+          is_grouped: false
+          group_info:
+            label: ''
+            description: ''
+            identifier: ''
+            optional: true
+            widget: select
+            multiple: false
+            remember: false
+            default_group: All
+            default_group_multiple: {  }
+            group_items: {  }
       filter_groups:
         operator: AND
         groups:
@@ -349,6 +410,7 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
+      use_ajax: true
       header: {  }
       footer: {  }
       display_extenders: {  }
@@ -368,6 +430,7 @@ display:
     display_plugin: block
     position: 1
     display_options:
+      exposed_block: true
       display_extenders: {  }
     cache_metadata:
       max-age: -1

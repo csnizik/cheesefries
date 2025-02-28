@@ -12,11 +12,11 @@ login:
     allow_destination: false
     weight: 0
   rhem_administrator:
-    redirect_url: ''
+    redirect_url: /admin/content
     allow_destination: false
     weight: 0
   rhem_uploader:
-    redirect_url: ''
+    redirect_url: /admin/content
     allow_destination: false
     weight: 0
   dap_administrator:

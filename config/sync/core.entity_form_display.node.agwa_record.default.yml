@@ -9,16 +9,9 @@ dependencies:
     - node.type.agwa_record
   module:
     - datetime
-    - field_layout
     - file
-    - layout_discovery
     - path
     - text
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings:
-      label: ''
 id: node.agwa_record.default
 targetEntityType: node
 bundle: agwa_record

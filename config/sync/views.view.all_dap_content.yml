@@ -295,7 +295,7 @@ display:
           exposed: true
           expose:
             operator_id: title_op
-            label: Search
+            label: 'Search all DAP content'
             description: ''
             use_operator: false
             operator: title_op

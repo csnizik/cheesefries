@@ -6,14 +6,6 @@ dependencies:
     - core.entity_form_mode.media.media_library
     - field.field.media.rhem_documnet.field_media_document
     - media.type.rhem_documnet
-  module:
-    - field_layout
-    - layout_discovery
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings:
-      label: ''
 id: media.rhem_documnet.media_library
 targetEntityType: media
 bundle: rhem_documnet

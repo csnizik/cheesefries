@@ -23,4 +23,4 @@ visibility:
   request_path:
     id: request_path
     negate: true
-    pages: "/dap\r\n/agwa\r\n/rhem"
+    pages: "/dap\r\n/agwa\r\n/rhem\r\n/all"

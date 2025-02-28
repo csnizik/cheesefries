@@ -7,15 +7,8 @@ dependencies:
     - field.field.node.dap_record.field_record_type
     - node.type.dap_record
   module:
-    - field_layout
-    - layout_discovery
     - path
     - text
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings:
-      label: ''
 id: node.dap_record.default
 targetEntityType: node
 bundle: dap_record

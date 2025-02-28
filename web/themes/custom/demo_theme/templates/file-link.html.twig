@@ -1,0 +1,11 @@
+<div style="display: flex; justify-content: space-between; gap: 15px; ">
+{% if file_size %}
+	<span >({{ file_size }})</span>
+{% endif %}
+<span>
+	<a href="{{ link['#url'].toString() }}" target="_blank">
+		<img alt="Download" src="/sites/default/files/2025-02/dlicon.png" href="{{ url }}">
+	</a>
+</span>
+</div>
+{# {{ dump() }} #}

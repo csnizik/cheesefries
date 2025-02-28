@@ -12552,3 +12552,9 @@ svg.ext path,svg.mailto path,svg.tel path {
 [data-drupal-selector*="views-exposed-form-duplicate-of-all-health-records-page-1"] [data-drupal-selector*="edit-actions"] {
     align-self:center;
 }
+
+.layout--twocol-section.layout--twocol-section--33-67 > .layout__region--first {
+    @media screen and (min-width: 40em) {
+        padding-right: 1.5rem;
+    }
+}

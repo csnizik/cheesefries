@@ -181,6 +181,9 @@ corepack_enable: false
 # webimage_extra_packages: [php7.4-tidy, php-bcmath]
 # Extra Debian packages that are needed in the webimage can be added here
 
+webimage_extra_packages:
+  - php-curl
+
 # dbimage_extra_packages: [telnet,netcat]
 # Extra Debian packages that are needed in the dbimage can be added here
 

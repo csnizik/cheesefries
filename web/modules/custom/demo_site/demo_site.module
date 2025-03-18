@@ -2,6 +2,36 @@
 
 /**
  * @file
- * Primary module hooks for Demo Site module.
+ * Contains custom preprocess functions for the demo site module.
  */
 
+use Drupal\Core\Url;
+
+/**
+ * Implements hook_preprocess_HOOK() for page templates.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - gin_custom_sidebar: Custom sidebar tabs.
+ */
+function demo_site_preprocess_page(&$variables) {
+  // Get current user details.
+  $current_user = \Drupal::currentUser();
+  $username = $current_user->getDisplayName();
+
+  // Define custom sidebar tabs.
+  $variables['gin_custom_sidebar'] = [
+    'username' => $username,
+    'links' => [
+      [
+        'url' => Url::fromRoute('view.my_recent_content.page_1'),
+      ],
+      [
+        'url' => Url::fromRoute('view.all_agwa_records.page_1'),
+      ],
+      [
+        'url' => Url::fromRoute('view.all_agwa_private_records.page_1'),
+      ],
+    ],
+  ];
+}

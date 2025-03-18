@@ -1,0 +1,24 @@
+uuid: 891e96cf-5a5b-413f-9763-ecc67c6765b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.rhem_document
+  module:
+    - text
+id: node.rhem_document.body
+field_name: body
+entity_type: node
+bundle: rhem_document
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

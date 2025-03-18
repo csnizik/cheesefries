@@ -1,0 +1,20 @@
+uuid: 8437cd06-1713-4a1b-a426-0028a71f7f3a
+langcode: en
+status: true
+dependencies:
+  theme:
+    - seven
+_core:
+  default_config_hash: CXdmlikA1003-_RDPvY19VxL-AkukNTelocR2Z5VW3Q
+id: seven_local_actions
+theme: seven
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

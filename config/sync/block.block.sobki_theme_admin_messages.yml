@@ -1,0 +1,22 @@
+uuid: b6cd1199-2195-4383-b14f-a301fc85f674
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sobki_theme_admin
+_core:
+  default_config_hash: Y0i6Ze9IknT7XYcIUh1W_nYPisc_uu4wQOElSLL-GUk
+id: sobki_theme_admin_messages
+theme: sobki_theme_admin
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

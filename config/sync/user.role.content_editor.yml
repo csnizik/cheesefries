@@ -4,7 +4,6 @@ status: true
 dependencies:
   config:
     - node.type.agwa_record
-    - node.type.article
     - node.type.dap_record
     - node.type.page
     - taxonomy.vocabulary.tags
@@ -31,23 +30,19 @@ permissions:
   - 'access toolbar'
   - 'administer url aliases'
   - 'create agwa_record content'
-  - 'create article content'
   - 'create dap_record content'
   - 'create page content'
   - 'create terms in tags'
   - 'create url aliases'
   - 'delete any agwa_record content'
   - 'delete any dap_record content'
-  - 'delete article revisions'
   - 'delete own agwa_record content'
-  - 'delete own article content'
   - 'delete own dap_record content'
   - 'delete own files'
   - 'delete own page content'
   - 'delete page revisions'
   - 'edit any agwa_record content'
   - 'edit own agwa_record content'
-  - 'edit own article content'
   - 'edit own comments'
   - 'edit own dap_record content'
   - 'edit own page content'

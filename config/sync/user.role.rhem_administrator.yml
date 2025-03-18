@@ -3,36 +3,53 @@ langcode: en
 status: true
 dependencies:
   config:
+    - dashboard.dashboard.rhem_dashboard
     - media.type.rhem_documnet
     - node.type.page
+    - node.type.rhem_document
   module:
-    - admin_toolbar_search
+    - contextual
+    - dashboard
+    - group
     - media
     - node
     - system
+    - toolbar
 id: rhem_administrator
 label: 'RHEM Administrator'
 weight: 10
 is_admin: null
 permissions:
   - 'access content'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access group overview'
   - 'access media overview'
+  - 'access toolbar'
   - 'create media'
   - 'create page content'
+  - 'create rhem_document content'
   - 'create rhem_documnet media'
   - 'delete any page content'
+  - 'delete any rhem_document content'
   - 'delete any rhem_documnet media'
   - 'delete any rhem_documnet media revisions'
   - 'delete own page content'
+  - 'delete own rhem_document content'
   - 'delete own rhem_documnet media'
+  - 'delete rhem_document revisions'
   - 'edit any page content'
+  - 'edit any rhem_document content'
   - 'edit any rhem_documnet media'
   - 'edit own page content'
+  - 'edit own rhem_document content'
   - 'edit own rhem_documnet media'
   - 'revert any rhem_documnet media revisions'
-  - 'use admin toolbar search'
+  - 'revert rhem_document revisions'
   - 'view any rhem_documnet media revisions'
   - 'view media'
   - 'view own unpublished content'
   - 'view own unpublished media'
+  - 'view rhem_dashboard dashboard'
+  - 'view rhem_document revisions'
   - 'view the administration theme'

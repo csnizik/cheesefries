@@ -1,0 +1,22 @@
+uuid: 08c8d074-4976-4502-a149-d6a5efb2b815
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sobki_theme_admin
+_core:
+  default_config_hash: 0QuRhwPEciG-4vXh758VW0XZrHnOK4SXwexb7JusM_4
+id: sobki_theme_admin_secondary_local_tasks
+theme: sobki_theme_admin
+region: pre_content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

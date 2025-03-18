@@ -3,12 +3,11 @@ langcode: en
 status: true
 dependencies:
   config:
-    - dashboard.dashboard.dap_dashboard
     - node.type.dap_private_record
     - node.type.dap_record
   module:
     - admin_toolbar_search
-    - dashboard
+    - group
     - node
     - system
 id: dap_administrator
@@ -16,6 +15,7 @@ label: 'DAP Administrator'
 weight: 12
 is_admin: null
 permissions:
+  - 'access group overview'
   - 'create dap_private_record content'
   - 'create dap_record content'
   - 'delete any dap_private_record content'
@@ -31,7 +31,6 @@ permissions:
   - 'revert dap_private_record revisions'
   - 'revert dap_record revisions'
   - 'use admin toolbar search'
-  - 'view dap_dashboard dashboard'
   - 'view dap_private_record revisions'
   - 'view dap_record revisions'
   - 'view the administration theme'

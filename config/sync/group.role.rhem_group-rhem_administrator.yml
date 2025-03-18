@@ -1,0 +1,50 @@
+uuid: 6d22af76-0d8d-4cd3-b085-9d3b41ec8012
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.rhem_group
+    - user.role.rhem_administrator
+id: rhem_group-rhem_administrator
+label: 'RHEM Administrator'
+weight: 105
+admin: false
+scope: insider
+global_role: rhem_administrator
+group_type: rhem_group
+permissions:
+  - 'access group content menu overview'
+  - 'access group_node overview'
+  - 'administer members'
+  - 'create group_node:page entity'
+  - 'create group_node:page relationship'
+  - 'create group_node:rhem_document entity'
+  - 'create group_node:rhem_document relationship'
+  - 'delete any group_node:page entity'
+  - 'delete any group_node:page relationship'
+  - 'delete any group_node:rhem_document entity'
+  - 'delete any group_node:rhem_document relationship'
+  - 'delete own group_node:page entity'
+  - 'delete own group_node:page relationship'
+  - 'delete own group_node:rhem_document entity'
+  - 'delete own group_node:rhem_document relationship'
+  - 'manage group_content_menu'
+  - 'manage group_content_menu menu items'
+  - 'update any group_node:page entity'
+  - 'update any group_node:page relationship'
+  - 'update any group_node:rhem_document entity'
+  - 'update any group_node:rhem_document relationship'
+  - 'update own group_node:page entity'
+  - 'update own group_node:page relationship'
+  - 'update own group_node:rhem_document entity'
+  - 'update own group_node:rhem_document relationship'
+  - 'view group'
+  - 'view group_membership relationship'
+  - 'view group_node:page entity'
+  - 'view group_node:page relationship'
+  - 'view group_node:rhem_document entity'
+  - 'view group_node:rhem_document relationship'
+  - 'view own unpublished group_node:page entity'
+  - 'view own unpublished group_node:rhem_document entity'
+  - 'view unpublished group_node:page entity'
+  - 'view unpublished group_node:rhem_document entity'

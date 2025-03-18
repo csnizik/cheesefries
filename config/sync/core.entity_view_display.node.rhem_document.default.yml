@@ -1,0 +1,28 @@
+uuid: a708575f-c5fd-4618-a85a-55bbfef8ba6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.rhem_document.body
+    - node.type.rhem_document
+  module:
+    - text
+    - user
+id: node.rhem_document.default
+targetEntityType: node
+bundle: rhem_document
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

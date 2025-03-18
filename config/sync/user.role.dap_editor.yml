@@ -3,11 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
-    - dashboard.dashboard.dap_dashboard
     - node.type.dap_record
   module:
     - admin_toolbar_search
-    - dashboard
     - node
 id: dap_editor
 label: 'DAP Editor'
@@ -22,5 +20,4 @@ permissions:
   - 'edit own dap_record content'
   - 'revert dap_record revisions'
   - 'use admin toolbar search'
-  - 'view dap_dashboard dashboard'
   - 'view dap_record revisions'

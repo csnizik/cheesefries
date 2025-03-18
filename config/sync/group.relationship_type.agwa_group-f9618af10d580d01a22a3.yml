@@ -1,0 +1,19 @@
+uuid: 25a019c0-fa92-4346-a34d-272437bb3ae5
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.agwa_group
+    - group_content_menu.group_content_menu_type.agwa_menu_type
+  module:
+    - group_content_menu
+id: agwa_group-f9618af10d580d01a22a3
+group_type: agwa_group
+content_plugin: 'group_content_menu:agwa_menu_type'
+plugin_config:
+  group_cardinality: 1
+  entity_cardinality: 1
+  use_creation_wizard: false
+  auto_create_group_menu: true
+  auto_create_home_link: true
+  auto_create_home_link_title: Home

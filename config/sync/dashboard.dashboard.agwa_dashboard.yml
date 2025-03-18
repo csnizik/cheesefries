@@ -1,0 +1,35 @@
+uuid: c2aebc9a-1699-47d0-86e6-b212e3789d4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.dummy_dashboard_media
+  module:
+    - layout_builder
+    - layout_discovery
+    - views
+id: agwa_dashboard
+label: 'AGWA Dashboard'
+description: ''
+layout:
+  -
+    layout_id: layout_onecol
+    layout_settings:
+      label: ''
+      context_mapping: {  }
+    components:
+      bc4063ad-e5ae-4f57-a1e4-2b861b760374:
+        uuid: bc4063ad-e5ae-4f57-a1e4-2b861b760374
+        region: content
+        configuration:
+          id: 'views_block:dummy_dashboard_media-block_1'
+          label: ''
+          label_display: '0'
+          provider: views
+          context_mapping: {  }
+          views_label: ''
+          items_per_page: none
+        weight: 0
+        additional: {  }
+    third_party_settings: {  }
+weight: 0

@@ -1,0 +1,22 @@
+uuid: 481513f1-b126-49e0-9438-feae89aadb60
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sobki_theme_admin
+_core:
+  default_config_hash: piKOz27TSddP2Mocwid8K9PGpg26YXIUtZiGxcRzPpM
+id: sobki_theme_admin_breadcrumbs
+theme: sobki_theme_admin
+region: breadcrumb
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

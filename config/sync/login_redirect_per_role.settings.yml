@@ -12,11 +12,11 @@ login:
     allow_destination: false
     weight: 0
   rhem_administrator:
-    redirect_url: /admin/content
+    redirect_url: /admin/dashboard/rhem_dashboard
     allow_destination: false
     weight: 0
   rhem_uploader:
-    redirect_url: /admin/content
+    redirect_url: /admin/dashboard/rhem_dashboard
     allow_destination: false
     weight: 0
   dap_administrator:
@@ -28,11 +28,11 @@ login:
     allow_destination: false
     weight: 0
   agwa_administrator:
-    redirect_url: /admin/dashboard/dashboard_agwa
+    redirect_url: /admin/dashboard/agwa_dashboard
     allow_destination: false
     weight: 0
   agwa_editor:
-    redirect_url: /admin/dashboard/dashboard_agwa
+    redirect_url: /admin/dashboard/agwa_dashboard
     allow_destination: false
     weight: 0
 logout:

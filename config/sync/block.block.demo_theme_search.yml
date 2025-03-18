@@ -11,7 +11,7 @@ _core:
 id: demo_theme_search
 theme: demo_theme
 region: secondary_menu
-weight: 10
+weight: -5
 provider: null
 plugin: search_form_block
 settings:

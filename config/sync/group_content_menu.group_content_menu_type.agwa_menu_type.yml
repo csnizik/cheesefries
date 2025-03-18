@@ -1,0 +1,6 @@
+uuid: 486ddcb2-9e90-4b50-a857-99743cb45aa0
+langcode: en
+status: true
+dependencies: {  }
+id: agwa_menu_type
+label: 'AGWA Menu Type'

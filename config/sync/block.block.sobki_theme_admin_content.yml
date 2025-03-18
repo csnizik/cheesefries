@@ -1,0 +1,22 @@
+uuid: 3cdd5f91-bc0b-4d23-a32e-ac36b0a5c157
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sobki_theme_admin
+_core:
+  default_config_hash: _6g8w3MkTtRQWkNueq26T7M0SBKW23WzPfcxhndic4M
+id: sobki_theme_admin_content
+theme: sobki_theme_admin
+region: content
+weight: -2
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

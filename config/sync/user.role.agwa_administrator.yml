@@ -3,36 +3,108 @@ langcode: en
 status: true
 dependencies:
   config:
-    - dashboard.dashboard.dashboard_agwa
+    - dashboard.dashboard.agwa_dashboard
+    - media.type.audio
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
     - node.type.agwa_private_record
     - node.type.agwa_record
+    - node.type.page
   module:
-    - admin_toolbar_search
+    - contextual
     - dashboard
+    - group
+    - media
     - node
     - system
+    - toolbar
 id: agwa_administrator
 label: 'AGWA Administrator'
 weight: 14
 is_admin: null
 permissions:
+  - 'access administration pages'
+  - 'access content'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access group overview'
+  - 'access media overview'
+  - 'access site reports'
+  - 'access toolbar'
+  - 'access user profiles'
   - 'create agwa_private_record content'
   - 'create agwa_record content'
+  - 'create audio media'
+  - 'create document media'
+  - 'create image media'
+  - 'create media'
+  - 'create page content'
+  - 'create remote_video media'
+  - 'create video media'
   - 'delete agwa_private_record revisions'
   - 'delete agwa_record revisions'
   - 'delete any agwa_private_record content'
   - 'delete any agwa_record content'
+  - 'delete any audio media'
+  - 'delete any audio media revisions'
+  - 'delete any document media'
+  - 'delete any document media revisions'
+  - 'delete any image media'
+  - 'delete any image media revisions'
+  - 'delete any media'
+  - 'delete any page content'
+  - 'delete any remote_video media'
+  - 'delete any remote_video media revisions'
+  - 'delete any video media'
+  - 'delete any video media revisions'
+  - 'delete media'
   - 'delete own agwa_private_record content'
   - 'delete own agwa_record content'
+  - 'delete own audio media'
+  - 'delete own document media'
+  - 'delete own image media'
+  - 'delete own page content'
+  - 'delete own remote_video media'
+  - 'delete own video media'
+  - 'delete page revisions'
   - 'edit any agwa_private_record content'
   - 'edit any agwa_record content'
+  - 'edit any audio media'
+  - 'edit any document media'
+  - 'edit any image media'
+  - 'edit any page content'
+  - 'edit any remote_video media'
+  - 'edit any video media'
   - 'edit own agwa_private_record content'
   - 'edit own agwa_record content'
+  - 'edit own audio media'
+  - 'edit own document media'
+  - 'edit own image media'
+  - 'edit own page content'
+  - 'edit own remote_video media'
+  - 'edit own video media'
   - 'revert agwa_private_record revisions'
   - 'revert agwa_record revisions'
-  - 'use admin toolbar search'
+  - 'revert any audio media revisions'
+  - 'revert any document media revisions'
+  - 'revert any image media revisions'
+  - 'revert any remote_video media revisions'
+  - 'revert any video media revisions'
+  - 'revert page revisions'
+  - 'update any media'
+  - 'update media'
+  - 'view agwa_dashboard dashboard'
   - 'view agwa_private_record revisions'
   - 'view agwa_record revisions'
-  - 'view dashboard_agwa dashboard'
+  - 'view all media revisions'
+  - 'view any audio media revisions'
+  - 'view any document media revisions'
+  - 'view any remote_video media revisions'
+  - 'view any video media revisions'
+  - 'view media'
   - 'view own unpublished content'
+  - 'view own unpublished media'
+  - 'view page revisions'
   - 'view the administration theme'

@@ -8,8 +8,134 @@ definitions:
     expanded: false
     enabled: true
   standard__front_page:
-    enabled: false
     menu_name: main
     parent: ''
-    expanded: false
     weight: -50
+    expanded: false
+    enabled: false
+  'admin_toolbar_tools__extra_links:entity__group_relationship_type__edit_form__agwa_group-group_membership':
+    menu_name: admin
+    parent: ''
+    weight: 0
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:node__add':
+    weight: 4
+    menu_name: admin
+    parent: system.admin_content
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:block_content_page':
+    weight: 5
+    menu_name: admin
+    parent: system.admin_content
+    expanded: false
+    enabled: true
+  comment__admin:
+    weight: 6
+    menu_name: admin
+    parent: system.admin_content
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:view__files':
+    weight: 8
+    menu_name: admin
+    parent: system.admin_content
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:media_page':
+    weight: 9
+    menu_name: admin
+    parent: system.admin_content
+    expanded: false
+    enabled: true
+  system__dashboard:
+    menu_name: admin
+    parent: system.admin
+    weight: 0
+    expanded: false
+    enabled: false
+  entity__dashboard__overview:
+    enabled: false
+    menu_name: admin
+    parent: system.admin
+    expanded: false
+    weight: 0
+  'admin_toolbar_tools__extra_links:media__add__audio':
+    weight: 1
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:add_media'
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:media__add__document':
+    weight: 2
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:add_media'
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:media__add__image':
+    weight: 3
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:add_media'
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:media__add__rhem_documnet':
+    weight: 5
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:add_media'
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:media__add__remote_video':
+    weight: 6
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:add_media'
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:media__add__video':
+    weight: 7
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:add_media'
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:node__add__agwa_record':
+    weight: 1
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:node.add'
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:node__add__page':
+    weight: 3
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:node.add'
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:node__add__dap_private_record':
+    weight: 4
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:node.add'
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:node__add__dap_record':
+    weight: 5
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:node.add'
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:block_content__add__basic':
+    weight: -11
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:add_block'
+    expanded: false
+    enabled: true
+  'admin_toolbar_tools__extra_links:block_content__add__html':
+    weight: -10
+    menu_name: admin
+    parent: 'admin_toolbar_tools.extra_links:add_block'
+    expanded: false
+    enabled: true
+  admin_toolbar_tools__help:
+    enabled: false
+    menu_name: admin
+    parent: system.admin
+    expanded: false
+    weight: -100

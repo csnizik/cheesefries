@@ -1,0 +1,20 @@
+uuid: 16d74ea4-8bd4-4711-b03a-81840fa68483
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sobki_theme_admin
+_core:
+  default_config_hash: ochmuRS2EA4EooHVsVpB80nwBnNLMxSda90805G12fI
+id: sobki_theme_admin_page_title
+theme: sobki_theme_admin
+region: header
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

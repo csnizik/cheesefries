@@ -1,0 +1,27 @@
+uuid: ad34b4ce-dc13-4750-9245-8fdf80ca779c
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+    - system
+  theme:
+    - sobki_theme_admin
+_core:
+  default_config_hash: SC5dxUmoDhq1B1g_2gj05maL3X0txYnnMZIWwfIX_EM
+id: sobki_theme_admin_help
+theme: sobki_theme_admin
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '*/layout'

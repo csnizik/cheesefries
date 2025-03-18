@@ -1,0 +1,20 @@
+uuid: 968a68db-8109-42bc-a8c6-a7bedc8220e0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sobki_theme_admin
+_core:
+  default_config_hash: g2WEjNzAGuUh9xAa_wOYYbzawK9zNXu8h1O8Ck9U_ys
+id: sobki_theme_admin_local_actions
+theme: sobki_theme_admin
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 7cf48ecc-e838-4356-ae85-5653be0a9b11
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.agwa_group
+    - user.role.agwa_editor
+id: agwa_group-agwa_editor
+label: 'AGWA Editor'
+weight: 104
+admin: false
+scope: insider
+global_role: agwa_editor
+group_type: agwa_group
+permissions:
+  - 'access group_node overview'
+  - 'create group_node:agwa_record entity'
+  - 'delete own group_node:agwa_record entity'
+  - 'update own group_node:agwa_record entity'
+  - 'view group'
+  - 'view group_node:agwa_record entity'
+  - 'view own unpublished group_node:agwa_record entity'
+  - 'view unpublished group_node:agwa_record entity'
